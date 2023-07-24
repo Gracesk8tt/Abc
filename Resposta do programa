@@ -1,0 +1,11 @@
+function solucao(letra, palavras) {
+	 let perderam = 0;
+
+  for (const palavra of palavras) {
+    if (palavra.charAt(0) !== letra) {
+      perderam++;
+    }
+  }
+
+  console.log (perderam);
+}
